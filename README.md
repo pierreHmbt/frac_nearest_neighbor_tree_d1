@@ -1,8 +1,6 @@
-# Nearest-neighbor tree in dimension 1 — interactive illustration
+# Nearest-neighbor tree in dimension 1 - interactive illustration
 
-A small [Streamlit](https://streamlit.io) app that illustrates the results of the work note
-*"The nearest-neighbor tree in dimension 1 — exact law of the subtree of the second vertex and
-a δ³ tail"* (`arbre_ppv_dimension1.pdf`).
+A small [Streamlit](https://streamlit.io) app.
 
 ## The result in one line
 
