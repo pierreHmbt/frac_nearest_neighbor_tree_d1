@@ -1,6 +1,6 @@
 # Nearest-neighbor tree in dimension 1 - interactive illustration
 
-A small [Streamlit](https://streamlit.io) app.
+A small [Streamlit](https://streamlit.io) app for the eact law for the subtree of the second vertex.
 
 ## The result in one line
 
