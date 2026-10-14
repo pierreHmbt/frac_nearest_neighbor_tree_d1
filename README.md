@@ -15,14 +15,7 @@ Then
 W = a·B₁ + (1 − a)·B₂,     a ~ U(0,1),   B₁, B₂ ~ Beta(2,2),   all independent,
 ```
 
-so that `E W = 1/2`, `Var W = 1/30` and
-
-```
-P(W < δ) = 6·δ³ + O(δ⁴ log(1/δ))     (δ → 0).
-```
-
-The Beta(2,2) law of the boundary point of a bicolored interval is Preater's Theorem 4 (2009);
-the circle decomposition and the tail bound are short consequences.
+so that `E W = 1/2` and `Var W = 1/30`.
 
 ## Tabs
 
@@ -31,8 +24,6 @@ the circle decomposition and the tail bound are short consequences.
 | 🌳 **Model & tree** | One realization on the circle (red/blue vertices, nearest-neighbor edges), `W_n` and the arc length `a = (x₂ − x₁) mod 1`. |
 | 🅱️ **Beta(2,2)** | One bicolored-interval realization (Lemma 4) and the density `6b(1−b)` / CDF `3y²−2y³` against a sample. |
 | 📊 **Law of W** | Histogram of `W_n` from real tree simulations overlaid with the exact law `a·B₁ + (1−a)·B₂`, plus `E W` and `Var W`. |
-| 📉 **δ³ tail** | `P(W<δ)/δ³` by quadrature of the exact law against simulated points, with the `→ 6` limit and a table reproducing the note. |
-| 🔭 **Conjecture γ_d** | `γ_d = 1 + 2/d`, with `d = 1` proved, `d = 2, 3` measured, and the `d → ∞` uniform-attachment limit. |
 
 All computations are cached; sliders in the sidebar control the sample size, tree size and random seed.
 
@@ -54,7 +45,6 @@ Then open <http://localhost:8501>.
 
 - `app.py` — the Streamlit application.
 - `requirements.txt` — `streamlit`, `numpy`, `matplotlib`.
-- `arbre_ppv_dimension1.pdf` — the source note.
 
 ## Notes
 
